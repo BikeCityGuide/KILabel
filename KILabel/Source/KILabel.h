@@ -176,6 +176,9 @@ IB_DESIGNABLE
  */
 @property (nullable, nonatomic, copy) KILinkTapHandler urlLinkTapHandler;
 
+@property (nullable, nonatomic, copy) KILinkTapHandler anythingElseTapHandler;
+@property (nullable, nonatomic, strong) NSString *anythingElseUrlString;
+
 /** ****************************************************************************************** **
  * @name Geometry
  ** ****************************************************************************************** **/
